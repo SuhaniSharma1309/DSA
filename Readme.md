@@ -8,3 +8,10 @@ Start Date: Day 1
 - Find maximum element
 - Reverse an array
 
+## Day 2
+### Concepts Learned
+- Hash Map for constant time lookup
+- Two Sum (optimal solution)
+- Prefix Sum technique
+- Time Complexity: O(n)
+
