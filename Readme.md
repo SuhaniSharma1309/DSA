@@ -15,3 +15,7 @@ Start Date: Day 1
 - Prefix Sum technique
 - Time Complexity: O(n)
 
+## Day 3
+### Concepts Learned
+- Sliding Window Technique (fixed size)
+- Time Complexity: O(n)
