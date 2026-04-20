@@ -1,8 +1,7 @@
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
-        // int a=str.length(str1);
-        // int b=str.length(str2);
+        
         int a=str1.length();
         int b=str2.length();
         int rem;
