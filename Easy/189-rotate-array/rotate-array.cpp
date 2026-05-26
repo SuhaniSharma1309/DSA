@@ -1,15 +1,11 @@
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-        vector<int> ans;
+        //[1 2 3 4 5 6 7]
         int n=nums.size();
         k=k % n;
-        for(int i=n-k; i<n; i++){
-            ans.push_back(nums[i]);
-        }
-        for(int i=0; i<n-k; i++){
-            ans.push_back(nums[i]);
-        }
-        nums=ans;
+        reverse(nums.begin(), nums.end()); //[7 6 5 4 3 2 1]
+        reverse(nums.begin(), nums.begin()+k); //[5 6 7 4 3 2 1]
+        reverse(nums.begin()+k, nums.end()); //[5 6 7 1 2 3 4]
     }
 };
